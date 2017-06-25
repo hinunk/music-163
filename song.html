@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+	<meta charset="UTF-8">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+	<script>
+		var scale = 1 / window.devicePixelRatio
+		document.write(`<meta name="viewport" 
+content="initial-scale=${scale},maximum-scale=${scale}, minimum-scale=${scale},user-scalable=no">`)
+	</script>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>歌曲播放</title>
+	<link rel="stylesheet" href="./song.css">
+	<script>
+		var viewportWidth = document.documentElement.clientWidth / window.devicePixelRatio //获取视口宽度
+		var setCss = `html{font-size: ${viewportWidth / 10 * window.devicePixelRatio}px;}`
+		var sheet = window.document.styleSheets[0]
+		sheet.insertRule(`${setCss}`, sheet.cssRules.length);
+	</script>
+	<script src="https://at.alicdn.com/t/font_mq4i1ennnah5mi.js"></script>
+</head>
+
+<body>
+
+	<div class="page">
+		<div class="vinyl-record">
+			<div class="diamond-stylus">
+				<img src="img/needle-ip6.png" alt="" />
+			</div>
+
+			<div class="disc-wrap">
+
+				<div class="disc">
+					<div class="cover-img">
+						<div class="icon-wrap">
+							<svg class="icon-py" aria-hidden="true">
+								<use xlink:href="#icon-play"></use>
+							</svg>
+						</div>
+
+						<img class="ring" src="img/disc-ip6.png" />
+						<img class="halo" src="img/disc_light-ip6.png" />
+						<img class="cover" src="img/7849413511897372.jpg" />
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="lyrics">
+			<h2>
+				<span>Quiet's Theme</span>
+				<span>-</span>
+				<span>V.A.</span>
+			</h2>
+			<div class="line">
+
+			</div>
+		</div>
+
+		<div class="links">
+			<a href="#">打开</a>
+			<a href="#">下载</a>
+		</div>
+	</div>
+
+	<script src="jquery.min.js"></script>
+	<script src="song.js"></script>
+</body>
+
+</html>

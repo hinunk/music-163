@@ -1,0 +1,106 @@
+body {
+	font-size: 16px;
+	margin: 0;
+}
+
+@keyframes turn {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.vinyl-record .disc .halo.turn {
+	animation: turn 20s infinite linear;
+}
+
+.vinyl-record .disc .cover.turn {
+	animation: turn 20s infinite linear;
+}
+
+.page {
+	background: url(http://p4.music.126.net/sFPpONzTLapEooBk_fYKsA==/18299172021141031.jpg) center center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.vinyl-record>.diamond-stylus {
+	position: absolute;
+	left: 45%;
+}
+
+.vinyl-record .diamond-stylus img {
+	width: 2.5rem;
+}
+
+.disc-wrap .disc .cover-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.disc-wrap .disc {
+	margin-top: 1.9rem;
+}
+
+.ring {
+	width: 6rem;
+}
+
+.halo {
+	position: absolute;
+	width: 6rem;
+}
+
+.cover {
+	position: absolute;
+	width: 4rem;
+	border-radius: 50%;
+}
+.icon-wrap{
+	position: absolute;
+	z-index: 1;
+}
+
+.lyrics {
+	color: rgb(165, 156, 157);
+	text-align: center;
+	font-size: 0.4rem;
+	height: 4.3rem;
+	overflow: hidden;
+}
+
+.lyrics h2 span:nth-child(1) {
+	color: #fefefe;
+}
+
+.lyrics .line {
+	line-height: 1rem;
+}
+
+.links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 3.2rem;
+}
+
+.page>.links>a {
+	border: 0.02rem solid red;
+	font-size: 0.45rem;
+	text-align: center;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	text-decoration: none;
+	line-height: 1rem;
+	border-radius: 0.1rem;
+	width: 3.5rem;
+}
+
+.links a:nth-child(2) {
+	background: rgb(212, 59, 50);
+}
