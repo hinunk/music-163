@@ -5,7 +5,17 @@ $(function () {
 	$.get('./songs.json').then(function (response) {
 		let songs = response
 		let song = songs.filter(s => s.id === id)[0]
-		let { url } = song
+		let { url, name, lyric } = song
+
+		initplayer.call(undefined, url)
+		initNameLyric(name, lyric)
+	})
+
+	function initNameLyric(name, lyric) {
+		$('#musicTitle').text(name)
+		parseLyric(lyric)
+	}
+	function initplayer(url) {
 		var audio = document.createElement('audio')
 		audio.src = url
 		$('.icon-wrap').on('click', function () {
@@ -13,12 +23,37 @@ $(function () {
 			$('.halo').addClass('turn')
 			$('.cover').addClass('turn')
 			$(this).css({ 'display': 'none' })
+
+			setInterval(() => {
+				let seconds = audio.currentTime
+				let munites = ~~(seconds / 60)
+				let left = seconds - munites * 60
+				let time = `${pad(munites)}:${pad(left)}`
+				let $lines = $('.line> p')
+				let $whichLine
+				for (let i = 0; i < $lines.length; i++) {
+					let currentLineTime = $lines.eq(i).attr('data-time')
+					let nextLineTime = $lines.eq(i + 1).attr('data-time')
+					if ($lines.eq(i + 1).length !== 0 && currentLineTime < time && nextLineTime > time) {
+						$whichLine = $lines.eq(i)
+						break
+					}
+				}
+				if ($whichLine) {
+					$whichLine.addClass('active').prev().removeClass('active')
+					let top = $whichLine.offset().top
+					let linesTop = $('.line').offset().top
+					let delta = top - linesTop - $('.lyric').height() / 3
+					$('.line').css('transform', `translateY(-${delta}px)`)
+				}
+			}, 300)
 		})
-	})
-
-
-	$.get('./lyric.json').then(function (object) {
-		var { lyric } = object
+	}
+	function pad(number) {
+		return number >= 10 ? number + '' : '0' + number
+	}
+	function parseLyric(lyric) {
+		if (lyric === undefined) { return }
 		var array = lyric.split('\n')
 		var regex = /^\[(.+)\](.*)$/
 		array = array.map(function (string, index) {
@@ -32,11 +67,9 @@ $(function () {
 			if (!object) { return }
 			var $lyric = $('.line')
 			var $p = $('</p>')
-			$p.attr('data-teme', object.tiem).text(object.words)
+			$p.attr('data-time', object.tiem).text(object.words)
 			$p.appendTo($lyric)
 		})
-	})
-
-
+	}
 
 })

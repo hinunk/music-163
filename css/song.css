@@ -70,18 +70,24 @@ body {
 	color: rgb(165, 156, 157);
 	text-align: center;
 	font-size: 0.4rem;
-	height: 4.3rem;
+	height: 3rem;
 	overflow: hidden;
 }
 
-.lyrics h2 span:nth-child(1) {
+#musicTitle {
 	color: #fefefe;
+	text-align: center;
+	font-size: 0.6rem;
+	margin-bottom: 0;
 }
 
 .lyrics .line {
+	transition: transform 0.3s;
 	line-height: 1rem;
 }
-
+.lyrics p.active{
+	color: #fefefe;
+}
 .links {
 	display: flex;
 	justify-content: space-around;
