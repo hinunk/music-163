@@ -92,6 +92,9 @@
     font-size: 13px;
     margin-bottom: 16px;
 }
+.latelyMusic p{
+    text-align: center;
+}
 .latelyMusic ol {
     list-style: none;
 }
@@ -109,16 +112,17 @@
     border-bottom: 1px solid #cccccc;
     margin-left: 11px;
     padding: 6px 0;
-    text-overflow: ellipsis;
 }
 .latelyMusic ol li h3{
     font-size: 17px;
 }
 .latelyMusic ol li p{
+    position:relative;
     font-size: 12px;
     color: #888;
     display: flex;
 }
+
 .latelyMusic ol li .icon{
     width: 22px;
     height: 22px;
