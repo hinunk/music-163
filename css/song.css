@@ -20,12 +20,12 @@ body {
 	animation: turn 20s infinite linear;
 }
 
-.page {
+body {
 	background: url(http://p4.music.126.net/sFPpONzTLapEooBk_fYKsA==/18299172021141031.jpg) center center;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+
 }
 
 .vinyl-record>.diamond-stylus {
@@ -44,7 +44,7 @@ body {
 }
 
 .disc-wrap .disc {
-	margin-top: 1.9rem;
+	padding-top: 1.9rem;
 }
 
 .ring {
@@ -86,7 +86,7 @@ body {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-top: 3.2rem;
+	padding-top: 2.5rem;
 }
 
 .page>.links>a {
