@@ -26,17 +26,61 @@ $(document).ready(function () {
         });
     })
 
-    $('.nav').on('click','.click-items>li',function(e){
+    $('.nav').on('click', '.click-items>li', function (e) {
         var $li = $(e.currentTarget).addClass('active')
         $li.siblings().removeClass('active')
         var index = $li.index()
-        $li.trigger('tabChange',index)
+        $li.trigger('tabChange', index)
         $('.tab-contaner > li').eq(index).addClass('active')
-        .siblings().removeClass('active')
+            .siblings().removeClass('active')
     })
 
-    $('.nav').on('tabChange',function(e,index){
-        console.log(e,index)
+    $('.nav').on('tabChange', function (e, index) {
+        console.log(e, index)
     })
+
+    let timer = undefined
+    $('input#searchSong').on('input', function (e) {
+        let $input = $(e.currentTarget)
+        let value = $input.val().trim()
+        if (value === '') { return }
+
+        if (timer) {
+            clearTimeout(timer)
+        }
+
+        timer = setTimeout(function () {
+            search(value).then((result) => {
+                timer = undefined
+                if (result.length !== 0) {
+                    $('#output').text(result.map((r) => r.name).join(','))
+                } else {
+                    $('#output').text('没有结果')
+                }
+            })
+        }, 300)
+
+
+    })
+
+    function search(keyword) {
+        console.log('搜索' + keyword)
+        return new Promise((resolve, reject) => {
+            var database = [
+                { "id": 1, "name": "此生不换", },
+                { "id": 2, "name": "cocoon", },
+                { "id": 3, "name": "Quiet's-Theme", },
+                { "id": 4, "name": "風の集まる場所", },
+            ]
+            let result = database.filter(function (item) {
+                return item.name.indexOf(keyword) >= 0
+            })
+            setTimeout(function () {
+                console.log('搜到' + keyword + '的结果')
+                resolve(result)
+            }, (Math.random() * 200 + 1000))
+        })
+    }
+    window.search = search
 })
 
