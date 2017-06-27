@@ -5,12 +5,16 @@ $(function () {
 	$.get('./songs.json').then(function (response) {
 		let songs = response
 		let song = songs.filter(s => s.id === id)[0]
-		let { url, name, lyric } = song
+		let { url, name, lyric, albumImage } = song
 
 		initplayer.call(undefined, url)
 		initNameLyric(name, lyric)
+		initAlbumImage(albumImage)
 	})
-
+	function initAlbumImage(albumImage) {
+		var $cover = $('.cover')
+		$cover.attr('src', albumImage)
+	}
 	function initNameLyric(name, lyric) {
 		$('#musicTitle').text(name)
 		parseLyric(lyric)
@@ -53,7 +57,12 @@ $(function () {
 		return number >= 10 ? number + '' : '0' + number
 	}
 	function parseLyric(lyric) {
-		if (lyric === undefined) { return }
+		if (lyric === undefined) {
+			var $lyric = $('.line')
+			var $p = $('</p>')
+			$p.text('暂无歌词')
+			return $p.appendTo($lyric)
+		}
 		var array = lyric.split('\n')
 		var regex = /^\[(.+)\](.*)$/
 		array = array.map(function (string, index) {

@@ -10,6 +10,9 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+ol,ul,li{
+    list-style: none;
+}
 .topber{
     display: -webkit-box;
     display: flex;
@@ -36,7 +39,6 @@
 }
 
 .nav ol{
-    list-style: none;
     display: flex;
     text-align: center;
     border-bottom: 1px solid #cccccc; 
@@ -60,6 +62,12 @@
     left: -6px;
     right: -6px;
 }
+.tab-contaner > li {
+    display: none;
+}
+.tab-contaner > li.active{
+    display: block;
+}
 .playLists h2:first-child{
     padding-left: 9px;
     margin-top: 20px;
@@ -71,7 +79,6 @@
 }
 .playLists ul{
     display: flex;
-    list-style: none;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -95,9 +102,7 @@
 .latelyMusic p{
     text-align: center;
 }
-.latelyMusic ol {
-    list-style: none;
-}
+.latelyMusic ol {}
 .latelyMusic > h2:first-child{
     padding-left: 9px;
     margin-top: 20px;

@@ -26,7 +26,17 @@ $(document).ready(function () {
         });
     })
 
+    $('.nav').on('click','.click-items>li',function(e){
+        var $li = $(e.currentTarget).addClass('active')
+        $li.siblings().removeClass('active')
+        var index = $li.index()
+        $li.trigger('tabChange',index)
+        $('.tab-contaner > li').eq(index).addClass('active')
+        .siblings().removeClass('active')
+    })
 
-
+    $('.nav').on('tabChange',function(e,index){
+        console.log(e,index)
+    })
 })
 
