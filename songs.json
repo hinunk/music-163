@@ -1,68 +1,77 @@
 [
     {
-        "id":"1",
-        "url": "http://os4x0vwvg.bkt.clouddn.com/%E6%AD%A4%E7%94%9F%E4%B8%8D%E6%8D%A2.mp3",
+        "id": "1",
+        "url": "此生不换.mp3",
         "name": "此生不换",
         "album": "仙剑奇侠传三 电视原声带",
         "lyric": "[00:00.00] 作曲 : 闻震\n[00:01.00] 作词 : 杨漩予\n[00:32.080]时光穿不断 流转在从前\n[00:39.330]刻骨的变迁 不是遥远\n[00:45.900]再有一万年 深情也不变\n[00:53.450]爱像烈火般蔓延\n[01:01.580]记忆是条长线 盘旋在天边\n[01:08.840]沉浮中以为 情深缘浅\n[01:15.510]你再度出现 我看见誓言\n[01:22.760]承诺在水天之间\n[01:29.640]回头看 不曾走远\n[01:37.700]依依目光此生不换\n[01:44.590]要分散 不习惯\n[01:48.720]怎么算 都太难\n[01:52.410]分开之后更勇敢\n[01:59.920]愿这爱 世代相传\n[02:12.040]喝不完忘情泉 不让你如烟\n[02:18.980]前尘再怀恋 望剑如面\n[02:25.670]挥舞的瞬间 别再闭上眼\n[02:33.100]错过惊世的依恋\n[02:39.860]回头看 不曾走远\n[02:47.790]眷恋一人流连忘返\n[02:55.040]多少汗 够温暖 你哭喊 我呼唤\n[03:02.670]听清耳边的呢喃\n[03:10.100]别害怕 风轻云淡\n[03:31.730]回头看 不曾走远\n[03:39.540]依依目光此生不换\n[03:46.850]要分散 不习惯\n[03:50.410]怎么算 都太难\n[03:54.410]分开之后更勇敢\n[04:01.600]愿这爱 世代相传\n",
         "albumImage": "img/46179488378975.jpg"
     },
     {
-        "id":"2",
-        "url": "http://os4x0vwvg.bkt.clouddn.com/%E6%9E%97%E3%82%86%E3%81%86%E3%81%8D%20-%20cocoon.mp3",
+        "id": "2",
+        "url": "林ゆうき - cocoon.mp3",
         "name": "cocoon",
         "album": "日剧《Triangle》原声带",
         "albumImage": "img/2526677720646150.jpg"
     },
     {
-        "id":"3",
-        "url": "http://os4x0vwvg.bkt.clouddn.com/V.A.%20-%20%E9%A2%A8%E3%81%AE%E9%9B%86%E3%81%BE%E3%82%8B%E5%A0%B4%E6%89%80.mp3",
+        "id": "3",
+        "url": "V.A. - 風の集まる場所.mp3",
         "name": "風の集まる場所",
         "album": "Monster Hunter X Original Soundtrack",
         "albumImage": "img/3396391421524858.jpg"
     },
     {
-        "id":"4",
-        "url": "http://os4x0vwvg.bkt.clouddn.com/Quiet%27s-Theme.mp3",
+        "id": "4",
+        "url": "Quiet's-Theme.mp3",
         "name": "Quiet's-Theme",
         "album": "METAL GEAR SOLID V",
-        "lyric":"[by:Lastdier]\n[ti: quiet's theme]\n[ar: V.A.]\n[al: Metal Gear Solid V Original Soundtrack]\n[by: Lastdier]\n[00:02:50]Huuuuuuuh...\n[00:05:50]Huuuuuh-hu-huuuuuuh...\n[00:09:80]Huuuuuhhh-huuuuh...\n[00:15:00]Huuuuh-hu-huuuh.\n[00:24:80]Birds in the sky\n[00:33:40]Carry these words for me\n[00:43:80]Life tasted sweet\n[00:51:80]It let me live\n[00:56:90]let me breathe\n[01:02:60]Love hurts so bad\n[01:11:00]But still saved my soul\n[01:22:00]Flowers of a brighter past\n[01:29:90]They bloomed so free\n[01:34:90]Beneath the sun\n[01:40:90]Memories\n[01:45:80]I want to give them to you\n[01:50:80]So you can see\n[01:54:70]What we left there\n[01:59:70]When all hope bleeds out\n[02:04:50]What remains is dark\n[02:09:60]Should've left it all for you\n[02:13:90]For tomorrow\n[02:18:90]As your time draws near\n[02:23:40]Will you live in fear?\n[02:28:80]Could've left it all for you\n[02:33:80]But we let go\n",
+        "lyric": "[by:Lastdier]\n[ti: quiet's theme]\n[ar: V.A.]\n[al: Metal Gear Solid V Original Soundtrack]\n[by: Lastdier]\n[00:02:50]Huuuuuuuh...\n[00:05:50]Huuuuuh-hu-huuuuuuh...\n[00:09:80]Huuuuuhhh-huuuuh...\n[00:15:00]Huuuuh-hu-huuuh.\n[00:24:80]Birds in the sky\n[00:33:40]Carry these words for me\n[00:43:80]Life tasted sweet\n[00:51:80]It let me live\n[00:56:90]let me breathe\n[01:02:60]Love hurts so bad\n[01:11:00]But still saved my soul\n[01:22:00]Flowers of a brighter past\n[01:29:90]They bloomed so free\n[01:34:90]Beneath the sun\n[01:40:90]Memories\n[01:45:80]I want to give them to you\n[01:50:80]So you can see\n[01:54:70]What we left there\n[01:59:70]When all hope bleeds out\n[02:04:50]What remains is dark\n[02:09:60]Should've left it all for you\n[02:13:90]For tomorrow\n[02:18:90]As your time draws near\n[02:23:40]Will you live in fear?\n[02:28:80]Could've left it all for you\n[02:33:80]But we let go\n",
         "albumImage": "img/7849413511897372.jpg"
     },
     {
-        "id":"2",
-        "url": "http://os4x0vwvg.bkt.clouddn.com/%E6%9E%97%E3%82%86%E3%81%86%E3%81%8D%20-%20cocoon.mp3",
-        "name": "cocoon",
-        "album": "日剧《Triangle》原声带"
-    },
-    {
-        "id":"3",
-        "url": "http://os4x0vwvg.bkt.clouddn.com/V.A.%20-%20%E9%A2%A8%E3%81%AE%E9%9B%86%E3%81%BE%E3%82%8B%E5%A0%B4%E6%89%80.mp3",
-        "name": "風の集まる場所",
-        "album": "Monster Hunter X Original Soundtrack"
-    },
-    {
-        "id":"1",
-        "url": "http://os4x0vwvg.bkt.clouddn.com/%E6%AD%A4%E7%94%9F%E4%B8%8D%E6%8D%A2.mp3",
+        "id": "1",
+        "url": "此生不换.mp3",
         "name": "此生不换",
-        "album": "仙剑奇侠传三 电视原声带"
+        "album": "仙剑奇侠传三 电视原声带",
+        "lyric": "[00:00.00] 作曲 : 闻震\n[00:01.00] 作词 : 杨漩予\n[00:32.080]时光穿不断 流转在从前\n[00:39.330]刻骨的变迁 不是遥远\n[00:45.900]再有一万年 深情也不变\n[00:53.450]爱像烈火般蔓延\n[01:01.580]记忆是条长线 盘旋在天边\n[01:08.840]沉浮中以为 情深缘浅\n[01:15.510]你再度出现 我看见誓言\n[01:22.760]承诺在水天之间\n[01:29.640]回头看 不曾走远\n[01:37.700]依依目光此生不换\n[01:44.590]要分散 不习惯\n[01:48.720]怎么算 都太难\n[01:52.410]分开之后更勇敢\n[01:59.920]愿这爱 世代相传\n[02:12.040]喝不完忘情泉 不让你如烟\n[02:18.980]前尘再怀恋 望剑如面\n[02:25.670]挥舞的瞬间 别再闭上眼\n[02:33.100]错过惊世的依恋\n[02:39.860]回头看 不曾走远\n[02:47.790]眷恋一人流连忘返\n[02:55.040]多少汗 够温暖 你哭喊 我呼唤\n[03:02.670]听清耳边的呢喃\n[03:10.100]别害怕 风轻云淡\n[03:31.730]回头看 不曾走远\n[03:39.540]依依目光此生不换\n[03:46.850]要分散 不习惯\n[03:50.410]怎么算 都太难\n[03:54.410]分开之后更勇敢\n[04:01.600]愿这爱 世代相传\n",
+        "albumImage": "img/46179488378975.jpg"
     },
     {
-        "id":"2",
-        "url": "http://os4x0vwvg.bkt.clouddn.com/%E6%9E%97%E3%82%86%E3%81%86%E3%81%8D%20-%20cocoon.mp3",
+        "id": "2",
+        "url": "林ゆうき - cocoon.mp3",
         "name": "cocoon",
-        "album": "日剧《Triangle》原声带"
+        "album": "日剧《Triangle》原声带",
+        "albumImage": "img/2526677720646150.jpg"
     },
     {
-        "id":"3",
-        "url": "http://os4x0vwvg.bkt.clouddn.com/V.A.%20-%20%E9%A2%A8%E3%81%AE%E9%9B%86%E3%81%BE%E3%82%8B%E5%A0%B4%E6%89%80.mp3",
+        "id": "3",
+        "url": "V.A. - 風の集まる場所.mp3",
         "name": "風の集まる場所",
-        "album": "Monster Hunter X Original Soundtrack"
+        "album": "Monster Hunter X Original Soundtrack",
+        "albumImage": "img/3396391421524858.jpg"
     },
     {
-        "id":"10",
-        "url": "http://os4x0vwvg.bkt.clouddn.com/V.A.%20-%20%E9%A2%A8%E3%81%AE%E9%9B%86%E3%81%BE%E3%82%8B%E5%A0%B4%E6%89%80.mp3",
+        "id": "4",
+        "url": "Quiet's-Theme.mp3",
+        "name": "Quiet's-Theme",
+        "album": "METAL GEAR SOLID V",
+        "lyric": "[by:Lastdier]\n[ti: quiet's theme]\n[ar: V.A.]\n[al: Metal Gear Solid V Original Soundtrack]\n[by: Lastdier]\n[00:02:50]Huuuuuuuh...\n[00:05:50]Huuuuuh-hu-huuuuuuh...\n[00:09:80]Huuuuuhhh-huuuuh...\n[00:15:00]Huuuuh-hu-huuuh.\n[00:24:80]Birds in the sky\n[00:33:40]Carry these words for me\n[00:43:80]Life tasted sweet\n[00:51:80]It let me live\n[00:56:90]let me breathe\n[01:02:60]Love hurts so bad\n[01:11:00]But still saved my soul\n[01:22:00]Flowers of a brighter past\n[01:29:90]They bloomed so free\n[01:34:90]Beneath the sun\n[01:40:90]Memories\n[01:45:80]I want to give them to you\n[01:50:80]So you can see\n[01:54:70]What we left there\n[01:59:70]When all hope bleeds out\n[02:04:50]What remains is dark\n[02:09:60]Should've left it all for you\n[02:13:90]For tomorrow\n[02:18:90]As your time draws near\n[02:23:40]Will you live in fear?\n[02:28:80]Could've left it all for you\n[02:33:80]But we let go\n",
+        "albumImage": "img/7849413511897372.jpg"
+    },
+    {
+        "id": "3",
+        "url": "V.A. - 風の集まる場所.mp3",
         "name": "風の集まる場所",
-        "album": "Monster Hunter X Original Soundtrack"
+        "album": "Monster Hunter X Original Soundtrack",
+        "albumImage": "img/3396391421524858.jpg"
+    },
+    {
+        "id": "4",
+        "url": "Quiet's-Theme.mp3",
+        "name": "Quiet's-Theme",
+        "album": "METAL GEAR SOLID V",
+        "lyric": "[by:Lastdier]\n[ti: quiet's theme]\n[ar: V.A.]\n[al: Metal Gear Solid V Original Soundtrack]\n[by: Lastdier]\n[00:02:50]Huuuuuuuh...\n[00:05:50]Huuuuuh-hu-huuuuuuh...\n[00:09:80]Huuuuuhhh-huuuuh...\n[00:15:00]Huuuuh-hu-huuuh.\n[00:24:80]Birds in the sky\n[00:33:40]Carry these words for me\n[00:43:80]Life tasted sweet\n[00:51:80]It let me live\n[00:56:90]let me breathe\n[01:02:60]Love hurts so bad\n[01:11:00]But still saved my soul\n[01:22:00]Flowers of a brighter past\n[01:29:90]They bloomed so free\n[01:34:90]Beneath the sun\n[01:40:90]Memories\n[01:45:80]I want to give them to you\n[01:50:80]So you can see\n[01:54:70]What we left there\n[01:59:70]When all hope bleeds out\n[02:04:50]What remains is dark\n[02:09:60]Should've left it all for you\n[02:13:90]For tomorrow\n[02:18:90]As your time draws near\n[02:23:40]Will you live in fear?\n[02:28:80]Could've left it all for you\n[02:33:80]But we let go\n",
+        "albumImage": "img/7849413511897372.jpg"
     }
 ]
