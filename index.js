@@ -36,7 +36,39 @@ $(document).ready(function () {
     })
 
     $('.nav').on('tabChange', function (e, index) {
-        console.log(e, index)
+        let $li = $('.tab-contaner > li').eq(index)
+        if ($li.attr('data-downloaded') === 'yes') {
+            return
+        }
+        if (index === 1) {
+            $.get('./page2.json').then((response) => {
+                var array = response
+                array.forEach(function (element) {
+                    var $li = $(`
+                	<li>
+						<div>${element.id}</div>
+						<div>
+							<h4>${element.name}</h4>
+							<p>${element.album}</p>
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-play"></use>
+							</svg>
+						</div>
+					</li>
+                    `)
+                    $('.musicList>ol').append($li)
+                })
+
+                $li.attr('data-downloaded', 'yes')
+            })
+        }
+        // else if (index === 2) {
+        //     $.get('./page3.json').then((response) => {
+        //         $li.text(response.content)
+        //         $li.attr('data-downloaded', 'yes')
+        //     })
+        // }
+
     })
 
     let timer = undefined

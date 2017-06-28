@@ -27,7 +27,11 @@ body {
 	flex-direction: column;
 
 }
-
+.page{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
 .vinyl-record>.diamond-stylus {
 	position: absolute;
 	left: 45%;
@@ -70,8 +74,6 @@ body {
 	color: rgb(165, 156, 157);
 	text-align: center;
 	font-size: 0.4rem;
-	height: 3rem;
-	overflow: hidden;
 }
 
 #musicTitle {
@@ -80,31 +82,38 @@ body {
 	font-size: 0.6rem;
 	margin-bottom: 0;
 }
-
+.lyrics{
+	flex: 1;
+}
 .lyrics .line {
 	transition: transform 0.3s;
+}
+.lyrics .lines{
+	height: 3rem;
+    overflow: hidden;
 	line-height: 1rem;
 }
 .lyrics p.active{
 	color: #fefefe;
 }
+
 .links {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding-top: 2.5rem;
 }
 
-.page>.links>a {
+.links>a {
 	border: 0.02rem solid red;
 	font-size: 0.45rem;
 	text-align: center;
 	color: white;
 	font-family: Helvetica, sans-serif;
 	text-decoration: none;
-	line-height: 1rem;
+	line-height: 0.9rem;
 	border-radius: 0.1rem;
-	width: 3.5rem;
+	width: 3.7rem;
+	margin: 1em;
 }
 
 .links a:nth-child(2) {
