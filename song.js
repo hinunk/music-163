@@ -57,10 +57,10 @@ $(function () {
 		return number >= 10 ? number + '' : '0' + number
 	}
 	function parseLyric(lyric) {
-		if (lyric === undefined) {
+		if (lyric === "") {
 			var $lyric = $('.line')
 			var $p = $('</p>')
-			$p.text('暂无歌词')
+			$p.text('纯音乐,无歌词')
 			return $p.appendTo($lyric)
 		}
 		var array = lyric.split('\n')

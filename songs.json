@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "url": "此生不换.mp3",
+        "url": "MP3/此生不换.mp3",
         "name": "此生不换",
         "album": "仙剑奇侠传三 电视原声带",
         "lyric": "[00:00.00] 作曲 : 闻震\n[00:01.00] 作词 : 杨漩予\n[00:32.080]时光穿不断 流转在从前\n[00:39.330]刻骨的变迁 不是遥远\n[00:45.900]再有一万年 深情也不变\n[00:53.450]爱像烈火般蔓延\n[01:01.580]记忆是条长线 盘旋在天边\n[01:08.840]沉浮中以为 情深缘浅\n[01:15.510]你再度出现 我看见誓言\n[01:22.760]承诺在水天之间\n[01:29.640]回头看 不曾走远\n[01:37.700]依依目光此生不换\n[01:44.590]要分散 不习惯\n[01:48.720]怎么算 都太难\n[01:52.410]分开之后更勇敢\n[01:59.920]愿这爱 世代相传\n[02:12.040]喝不完忘情泉 不让你如烟\n[02:18.980]前尘再怀恋 望剑如面\n[02:25.670]挥舞的瞬间 别再闭上眼\n[02:33.100]错过惊世的依恋\n[02:39.860]回头看 不曾走远\n[02:47.790]眷恋一人流连忘返\n[02:55.040]多少汗 够温暖 你哭喊 我呼唤\n[03:02.670]听清耳边的呢喃\n[03:10.100]别害怕 风轻云淡\n[03:31.730]回头看 不曾走远\n[03:39.540]依依目光此生不换\n[03:46.850]要分散 不习惯\n[03:50.410]怎么算 都太难\n[03:54.410]分开之后更勇敢\n[04:01.600]愿这爱 世代相传\n",
@@ -9,69 +9,74 @@
     },
     {
         "id": "2",
-        "url": "林ゆうき - cocoon.mp3",
+        "url": "MP3/林ゆうき - cocoon.mp3",
         "name": "cocoon",
         "album": "日剧《Triangle》原声带",
+        "lyric": "",
         "albumImage": "img/2526677720646150.jpg"
     },
     {
         "id": "3",
-        "url": "V.A. - 風の集まる場所.mp3",
+        "url": "MP3/V.A. - 風の集まる場所.mp3",
         "name": "風の集まる場所",
         "album": "Monster Hunter X Original Soundtrack",
+        "lyric": "",
         "albumImage": "img/3396391421524858.jpg"
     },
     {
         "id": "4",
-        "url": "Quiet's-Theme.mp3",
+        "url": "MP3/Quiet's-Theme.mp3",
         "name": "Quiet's-Theme",
         "album": "METAL GEAR SOLID V",
         "lyric": "[by:Lastdier]\n[ti: quiet's theme]\n[ar: V.A.]\n[al: Metal Gear Solid V Original Soundtrack]\n[by: Lastdier]\n[00:02:50]Huuuuuuuh...\n[00:05:50]Huuuuuh-hu-huuuuuuh...\n[00:09:80]Huuuuuhhh-huuuuh...\n[00:15:00]Huuuuh-hu-huuuh.\n[00:24:80]Birds in the sky\n[00:33:40]Carry these words for me\n[00:43:80]Life tasted sweet\n[00:51:80]It let me live\n[00:56:90]let me breathe\n[01:02:60]Love hurts so bad\n[01:11:00]But still saved my soul\n[01:22:00]Flowers of a brighter past\n[01:29:90]They bloomed so free\n[01:34:90]Beneath the sun\n[01:40:90]Memories\n[01:45:80]I want to give them to you\n[01:50:80]So you can see\n[01:54:70]What we left there\n[01:59:70]When all hope bleeds out\n[02:04:50]What remains is dark\n[02:09:60]Should've left it all for you\n[02:13:90]For tomorrow\n[02:18:90]As your time draws near\n[02:23:40]Will you live in fear?\n[02:28:80]Could've left it all for you\n[02:33:80]But we let go\n",
         "albumImage": "img/7849413511897372.jpg"
     },
     {
-        "id": "1",
-        "url": "此生不换.mp3",
-        "name": "此生不换",
-        "album": "仙剑奇侠传三 电视原声带",
-        "lyric": "[00:00.00] 作曲 : 闻震\n[00:01.00] 作词 : 杨漩予\n[00:32.080]时光穿不断 流转在从前\n[00:39.330]刻骨的变迁 不是遥远\n[00:45.900]再有一万年 深情也不变\n[00:53.450]爱像烈火般蔓延\n[01:01.580]记忆是条长线 盘旋在天边\n[01:08.840]沉浮中以为 情深缘浅\n[01:15.510]你再度出现 我看见誓言\n[01:22.760]承诺在水天之间\n[01:29.640]回头看 不曾走远\n[01:37.700]依依目光此生不换\n[01:44.590]要分散 不习惯\n[01:48.720]怎么算 都太难\n[01:52.410]分开之后更勇敢\n[01:59.920]愿这爱 世代相传\n[02:12.040]喝不完忘情泉 不让你如烟\n[02:18.980]前尘再怀恋 望剑如面\n[02:25.670]挥舞的瞬间 别再闭上眼\n[02:33.100]错过惊世的依恋\n[02:39.860]回头看 不曾走远\n[02:47.790]眷恋一人流连忘返\n[02:55.040]多少汗 够温暖 你哭喊 我呼唤\n[03:02.670]听清耳边的呢喃\n[03:10.100]别害怕 风轻云淡\n[03:31.730]回头看 不曾走远\n[03:39.540]依依目光此生不换\n[03:46.850]要分散 不习惯\n[03:50.410]怎么算 都太难\n[03:54.410]分开之后更勇敢\n[04:01.600]愿这爱 世代相传\n",
-        "albumImage": "img/46179488378975.jpg"
+        "id": "5",
+        "url": "MP3/Hunter x Hunter - Ohayou.mp3",
+        "name": "Ohayou",
+        "album": "Hunter x Hunter-SINGLE COLLECTION",
+        "lyric": "[by:左在存]\n[ti:おはよう。]\n[ar:Keno]\n[al:収録：Keno - おはよう。／発売日：2000/01/01]\n[00:25.330]\n[00:27.330]頼みもしないのに 朝はやって来る\n[00:32.400]窓を開けてちょっと深く深呼吸\n[00:36.600]ふくれっツラの君 思い出して笑う\n[00:41.380]ケンカした翌日は 留守電にしっ放しだろ\n[00:46.270]笑いあうコト 何気ない会話\n[00:50.550]毎日の暮らしの中で どうだっていい事\n[00:55.100]何も考えずに 浮かんでくる言葉\n[00:59.580]'フ'とした瞬間が 大切だって\n[01:03.610]君に'おはよう'って言って メッセージを残して\n[01:08.770]僕の一日 始めに出掛けなきゃ\n[01:13.550]まるで何も なかったみたいに\n[01:17.780]電話してくる 君の声が好きなんだ\n[01:25.480]\n[01:28.800]\n[01:30.800]不器用になっていた 何かが邪魔して\n[01:35.830]当たり前なことが 不透明になって\n[01:40.040]僕よりも僕のコトを 上手く愛せるのは\n[01:44.860]君しかいないんだって 分かってくやしかったんだけど\n[01:49.790]先入観って 自分にもあるね\n[01:54.010]どうせダメさなんて 自爆もせずに\n[01:58.520]振り出しにたって途方にくれても\n[02:03.080]始めの一歩で 救われてみる\n[02:06.980]君と肩を組んで 君と手を繋いで\n[02:12.120]恋人だったり 友達でいたいから\n[02:16.890]'おはよう'って言って また夢を見せて\n[02:21.200]自然なその生き方でいいからさ\n[02:28.340]\n[02:30.340]作詞：HIRO／山田ひろし／作曲：HIRO\n[02:37.340]編曲：Keno／西脇辰弥\n[02:41.860]\n[02:43.860]見慣れていた 君の変な字も\n[02:48.370]大事なコトバ書くと 新鮮に見える\n[02:52.900]素直になれない素直さなんかじゃ\n[02:57.440]君になんにも 伝わらない\n[03:03.670]また'おはよう'って言って また夢を見せて\n[03:08.790]今日も元気で過ごせたらイイよね\n[03:13.600]こんなに単純で当たり前なことが\n[03:17.830]本当は、一番見失いがちだからね\n[03:24.050]目を開けたまま 見る夢\n[03:30.330]知らない明日へ 運ぶ Merry-go-round goes\n[03:40.000]君と肩を組んで 君と手を繋いで\n[03:45.040]恋人だったり 友達でいたいから\n[03:49.810]'おはよう'って言って また夢を見せて\n[03:54.120]自然なその生き方でいいからさ\n[04:02.370]\n[04:04.370]\n",
+        "albumImage": "img/2500289441619423.jpg"
     },
     {
-        "id": "2",
-        "url": "林ゆうき - cocoon.mp3",
-        "name": "cocoon",
-        "album": "日剧《Triangle》原声带",
-        "albumImage": "img/2526677720646150.jpg"
-    },
-    {
-        "id": "3",
-        "url": "V.A. - 風の集まる場所.mp3",
-        "name": "風の集まる場所",
-        "album": "Monster Hunter X Original Soundtrack",
+        "id": "6",
+        "url": "MP3/Falcom Sound Team jdk - GENESIS BEYOND THE BEGINNING.mp3",
+        "name": "GENESIS BEYOND THE BEGINNING",
+        "album": "Falcom Sound Team jdk",
+        "lyric": "",
         "albumImage": "img/3396391421524858.jpg"
     },
     {
-        "id": "4",
-        "url": "Quiet's-Theme.mp3",
-        "name": "Quiet's-Theme",
-        "album": "METAL GEAR SOLID V",
-        "lyric": "[by:Lastdier]\n[ti: quiet's theme]\n[ar: V.A.]\n[al: Metal Gear Solid V Original Soundtrack]\n[by: Lastdier]\n[00:02:50]Huuuuuuuh...\n[00:05:50]Huuuuuh-hu-huuuuuuh...\n[00:09:80]Huuuuuhhh-huuuuh...\n[00:15:00]Huuuuh-hu-huuuh.\n[00:24:80]Birds in the sky\n[00:33:40]Carry these words for me\n[00:43:80]Life tasted sweet\n[00:51:80]It let me live\n[00:56:90]let me breathe\n[01:02:60]Love hurts so bad\n[01:11:00]But still saved my soul\n[01:22:00]Flowers of a brighter past\n[01:29:90]They bloomed so free\n[01:34:90]Beneath the sun\n[01:40:90]Memories\n[01:45:80]I want to give them to you\n[01:50:80]So you can see\n[01:54:70]What we left there\n[01:59:70]When all hope bleeds out\n[02:04:50]What remains is dark\n[02:09:60]Should've left it all for you\n[02:13:90]For tomorrow\n[02:18:90]As your time draws near\n[02:23:40]Will you live in fear?\n[02:28:80]Could've left it all for you\n[02:33:80]But we let go\n",
-        "albumImage": "img/7849413511897372.jpg"
+        "id": "7",
+        "url": "MP3/黄龄 - 等待.mp3",
+        "name": "等待",
+        "album": "黄龄-等待",
+        "lyric": "[by:蘋菓碳]\n[ti:]\n[ar:]\n[al:]\n[by:九九Lrc歌词网～www.99Lrc.net]\n[00:00.00] 作曲 : 高铭\n[00:01.00] 作词 : 卢恒宇\n[00:27.52]风带走了时间\n[00:29.76]也带走了记忆中的脸\n[00:33.78]你说过的永远\n[00:36.27]变成心碎过后的碎片\n[00:40.10]微笑着的眼\n[00:42.70]泪水还没干\n[00:46.34]挥动着的手\n[00:47.93]守护谁的誓言\n[00:52.26]乘风而行\n[00:55.30]行过万水千山\n[00:58.39]却看不见\n[00:59.58]也找不到\n[01:01.48]有你的世界\n[01:03.92]我一直在等待\n[01:07.41]等着梦 等着醒\n[01:08.86]等你回来\n[01:11.35]心中留下来的空白\n[01:13.73]是沧海桑田的无奈\n[01:16.78]是谁在我脑海\n[01:19.82]一直哭 一直笑\n[01:21.36]一直在坦白\n[01:23.91]忏悔曾经的那些话\n[01:26.30]都是谎言 放手吧\n[01:28.83]JUST SAY GOODBYE\n[01:43.25]风带走了时间\n[01:45.65]也带走了记忆中的脸\n[01:49.48]你说过的永远\n[01:51.88]变成心碎过后的碎片\n[01:55.66]微笑着的眼\n[01:58.70]泪水还没干\n[02:01.84]挥动着的手\n[02:03.39]守护谁的誓言\n[02:07.78]乘风而行\n[02:11.41]行过万水千山\n[02:14.05]却看不见\n[02:15.40]也找不到\n[02:17.04]有你的世界\n[02:19.43]我一直在等待\n[02:23.12]等着梦 等着醒\n[02:24.42]等你回来\n[02:27.12]心中留下来的空白\n[02:29.40]是沧海桑田的无奈\n[02:32.45]是谁在我脑海\n[02:35.44]一直哭 一直笑\n[02:36.94]一直在坦白\n[02:39.62]忏悔曾经的那些话\n[02:41.72]都是谎言 放手吧\n[02:44.80]JUST SAY GOODBYE\n[03:12.07]我一直在等待\n[03:15.26]等着梦 等着醒\n[03:16.80]等你回来\n[03:19.29]心中留下来的空白\n[03:21.68]是沧海桑田的无奈\n[03:24.72]是谁在我脑海\n[03:27.66]一直哭 一直笑\n[03:29.41]一直在坦白\n[03:31.79]忏悔曾经的那些话\n[03:34.29]都是谎言 放手吧\n[03:36.58]JUST SAY GOODBYE\n[03:49.22]JUST SAY GOODBYE\n",
+        "albumImage": "img/3413983612611934.jpg"
     },
     {
-        "id": "3",
-        "url": "V.A. - 風の集まる場所.mp3",
-        "name": "風の集まる場所",
-        "album": "Monster Hunter X Original Soundtrack",
-        "albumImage": "img/3396391421524858.jpg"
+        "id": "8",
+        "url": "MP3/増田順一 - 流星哀歌.mp3",
+        "name": "流星哀歌",
+        "album": "増田順一",
+        "lyric": "",
+        "albumImage": "img/6650945837727293.jpg"
     },
     {
-        "id": "4",
-        "url": "Quiet's-Theme.mp3",
-        "name": "Quiet's-Theme",
-        "album": "METAL GEAR SOLID V",
-        "lyric": "[by:Lastdier]\n[ti: quiet's theme]\n[ar: V.A.]\n[al: Metal Gear Solid V Original Soundtrack]\n[by: Lastdier]\n[00:02:50]Huuuuuuuh...\n[00:05:50]Huuuuuh-hu-huuuuuuh...\n[00:09:80]Huuuuuhhh-huuuuh...\n[00:15:00]Huuuuh-hu-huuuh.\n[00:24:80]Birds in the sky\n[00:33:40]Carry these words for me\n[00:43:80]Life tasted sweet\n[00:51:80]It let me live\n[00:56:90]let me breathe\n[01:02:60]Love hurts so bad\n[01:11:00]But still saved my soul\n[01:22:00]Flowers of a brighter past\n[01:29:90]They bloomed so free\n[01:34:90]Beneath the sun\n[01:40:90]Memories\n[01:45:80]I want to give them to you\n[01:50:80]So you can see\n[01:54:70]What we left there\n[01:59:70]When all hope bleeds out\n[02:04:50]What remains is dark\n[02:09:60]Should've left it all for you\n[02:13:90]For tomorrow\n[02:18:90]As your time draws near\n[02:23:40]Will you live in fear?\n[02:28:80]Could've left it all for you\n[02:33:80]But we let go\n",
-        "albumImage": "img/7849413511897372.jpg"
+        "id": "9",
+        "url": "MP3/Lights & Motion - Victory Rose.mp3",
+        "name": "Victory Rose",
+        "album": "Lights & Motion-Reanimation",
+        "lyric": "",
+        "albumImage": "img/2571757697399885.jpg"
+    },
+    {
+        "id": "10",
+        "url": "MP3/福田考代 - Sakura's Good Fight.mp3",
+        "name": "Sakura's Good Fight",
+        "album": "福田考代",
+        "lyric": "",
+        "albumImage": "img/5989039836497581.jpg"
     }
 ]
