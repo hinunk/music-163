@@ -282,11 +282,19 @@ li {
 }
 .musicList ol li div:first-child {
 	display: flex;
-	color: #df3436;
     -webkit-box-align: center;
     align-items: center;
     width: 28px;
     font-size: 17px;
+}
+.musicList ol li:nth-child(1) div:first-child{
+	color: #df3436;
+}
+.musicList ol li:nth-child(2) div:first-child{
+	color: #df3436;
+}
+.musicList ol li:nth-child(3) div:first-child{
+	color: #df3436;
 }
 .musicList ol li div:nth-child(2){
 	-webkit-box-flex: 1;
