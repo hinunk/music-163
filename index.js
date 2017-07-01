@@ -1,7 +1,7 @@
-$(document).ready(function () {
-    $.get('./songs.json', function (response) {
+$(document).ready(function() {
+    $.get('./songs.json', function(response) {
         var array = response
-        array.forEach(function (element) {
+        array.forEach(function(element) {
             let $li = $(`
             <li>
                 <h3 data-id="${element.id}">${element.name}</h3>
@@ -17,16 +17,16 @@ $(document).ready(function () {
             </li>`)
             $('.latelyMusic>ol').append($li)
             $('#loading-gif').remove()
-            $('.latelyMusic>ol').on('click', 'li', function () {
+            $('.latelyMusic>ol').on('click', 'li', function() {
                 var name = $(this).children('h3').attr('data-id')
-                $.get('./song.html').then(function () {
+                $.get('./song.html').then(function() {
                     window.location = `./song.html?id=${name}`
                 })
             })
         });
     })
 
-    $('.nav').on('click', '.click-items>li', function (e) {
+    $('.nav').on('click', '.click-items>li', function(e) {
         var $li = $(e.currentTarget).addClass('active')
         $li.siblings().removeClass('active')
         var index = $li.index()
@@ -35,7 +35,7 @@ $(document).ready(function () {
             .siblings().removeClass('active')
     })
 
-    $('.nav').on('tabChange', function (e, index) {
+    $('.nav').on('tabChange', function(e, index) {
         let $li = $('.tab-contaner > li').eq(index)
         if ($li.attr('data-downloaded') === 'yes') {
             return
@@ -43,7 +43,7 @@ $(document).ready(function () {
         if (index === 1) {
             $.get('./page2.json').then((response) => {
                 var array = response
-                array.forEach(function (element) {
+                array.forEach(function(element) {
                     var $li = $(`
                 	<li>
 						<div>${element.id}</div>
@@ -72,7 +72,7 @@ $(document).ready(function () {
     })
 
     let timer = undefined
-    $('input#searchSong').on('input', function (e) {
+    $('input#searchSong').on('input', function(e) {
         let $input = $(e.currentTarget)
         let value = $input.val().trim()
         if (value === '') { return }
@@ -81,13 +81,19 @@ $(document).ready(function () {
             clearTimeout(timer)
         }
 
-        timer = setTimeout(function () {
+        timer = setTimeout(function() {
             search(value).then((result) => {
                 timer = undefined
                 if (result.length !== 0) {
-                    $('#output').text(result.map((r) => r.name).join(','))
+                    $('#output').empty()
+                    let $ul = $('<ul></ul>')
+                    result.forEach((item) => {
+                        let $li = $(`<li><a href="/song.html?id=${item.id}">${item.name}</a></li>`)
+                        $li.appendTo($ul)
+                    })
+                    $('#output').append($ul)
                 } else {
-                    $('#output').text('没有结果')
+                    $('#output').html('没有结果')
                 }
             })
         }, 300)
@@ -101,13 +107,19 @@ $(document).ready(function () {
             var database = [
                 { "id": 1, "name": "此生不换", },
                 { "id": 2, "name": "cocoon", },
-                { "id": 3, "name": "Quiet's-Theme", },
-                { "id": 4, "name": "風の集まる場所", },
+                { "id": 3, "name": "風の集まる場所", },
+                { "id": 4, "name": "Quiet's-Theme", },
+                { "id": 5, "name": "Ohayou", },
+                { "id": 6, "name": "GENESIS BEYOND THE BEGINNING", },
+                { "id": 7, "name": "等待", },
+                { "id": 8, "name": "流星哀歌", },
+                { "id": 9, "name": "Victory Rose", },
+                { "id": 10, "name": "Sakura's Good Fight", }
             ]
-            let result = database.filter(function (item) {
+            let result = database.filter(function(item) {
                 return item.name.indexOf(keyword) >= 0
             })
-            setTimeout(function () {
+            setTimeout(function() {
                 console.log('搜到' + keyword + '的结果')
                 resolve(result)
             }, (Math.random() * 200 + 1000))
@@ -115,4 +127,3 @@ $(document).ready(function () {
     }
     window.search = search
 })
-
