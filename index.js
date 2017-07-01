@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    $('.playLists>ul').on('click', 'li', function() {
+        $.get('./songList.html').then(function() {
+            window.location = './songList.html'
+        })
+    })
+
     $.get('./songs.json', function(response) {
         var array = response
         array.forEach(function(element) {
